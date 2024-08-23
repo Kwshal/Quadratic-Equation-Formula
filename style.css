@@ -3,12 +3,38 @@
     width: 100vw;
     border: 1px solid #000;
     display: flex;  
+    margin: 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #6a5f6f;
 }
 input{
-    height: 20px;
-    width: 20px;
-    color: rgb(11, 11, 83);
+    height: 40px;
+    width: 40px;
+    color: rgb(184, 228, 10);
+    background-color: #9b9f9b;
+    border: none;
+    text-align: center;
+    font-size: 20px;
 }
+input::placeholder{
+    color: #2b2a2a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    
+}
+
+
+#formula{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 0 0 3px #000;
+}
+
+
