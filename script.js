@@ -15,5 +15,6 @@ function findRoots() {
   } else if (a != "" && b != "" && c != "") {
     document.getElementById("root1").innerHTML = root1;
     document.getElementById("root2").innerHTML = root2;
+    
   }
 }
